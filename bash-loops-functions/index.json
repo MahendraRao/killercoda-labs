@@ -1,0 +1,40 @@
+{
+  "title": "Loops and Functions (hands-on lab)",
+  "description": "Repeat work with for and while loops, handle file names with spaces, read a file line by line, and build a priced restaurant bill with a function. Companion lab for mahendrarao.com/learn.",
+  "difficulty": "beginner",
+  "time": "25 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Repeat a job with a for loop",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Loop over files, even with spaces in the name",
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Read a file line by line",
+        "text": "step3.md",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Build the bill with a function",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
