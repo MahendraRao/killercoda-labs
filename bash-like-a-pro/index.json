@@ -1,0 +1,41 @@
+{
+  "title": "Bash Like a Pro (hands-on lab)",
+  "description": "Take arguments and options, clean up after yourself with trap, and count things with associative arrays, in a real Linux terminal. Companion lab for mahendrarao.com/learn.",
+  "difficulty": "intermediate",
+  "time": "25 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Take arguments, with a default and a usage message",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Add options with getopts",
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Clean up even when the script fails (trap)",
+        "text": "step3.md",
+        "background": "step3-setup.sh",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Count with an associative array",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

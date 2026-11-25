@@ -1,0 +1,40 @@
+{
+  "title": "Pipes, Text Tools and Logic (hands-on lab)",
+  "description": "Count, rank and total real log and order data with pipes, grep, sort, uniq and awk, then write a script that decides with exit codes. Companion lab for mahendrarao.com/learn.",
+  "difficulty": "beginner",
+  "time": "20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Count the burnt orders (pipe + grep)",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Rank the dishes (cut, sort, uniq)",
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Total the day's revenue (awk)",
+        "text": "step3.md",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Write an alarm script (exit codes)",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
