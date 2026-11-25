@@ -1,0 +1,40 @@
+{
+  "title": "Your First Bash Script (hands-on lab)",
+  "description": "Write, run, break and fix real Bash scripts in a real Linux terminal. Nothing to install. Companion lab for mahendrarao.com/learn.",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Write and run hello.sh",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Give it the approved stamp (chmod +x)",
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Break it, then fix it",
+        "text": "step3.md",
+        "background": "step3-setup.sh",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Make a decision with if",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
